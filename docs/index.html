@@ -536,12 +536,24 @@
                     <div class="stat-label">Dynamic Models</div>
                 </div>
                 <div class="stat-item">
+                    <div class="stat-number" id="other-models-count"></div>
+                    <div class="stat-label">Other Models</div>
+                </div>
+                <div class="stat-item">
                     <div class="stat-number" id="ai-agents-count"></div>
                     <div class="stat-label">AI Agents</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" id="benchmarks-count"></div>
                     <div class="stat-label">Benchmarks</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="evaluation-frameworks-count"></div>
+                    <div class="stat-label">Eval Frameworks</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="methodology-count"></div>
+                    <div class="stat-label">Methodology</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" id="reviews-count"></div>
@@ -591,11 +603,20 @@
             <a href="#dynamic-models" class="nav-tab" data-section="dynamic-models">
                 <i class="fas fa-wave-square"></i> Dynamic Models (<span id="dynamic-models-nav-count"></span>)
             </a>
+            <a href="#other-models" class="nav-tab" data-section="other-models">
+                <i class="fas fa-cogs"></i> Other Models (<span id="other-models-nav-count"></span>)
+            </a>
             <a href="#ai-agents" class="nav-tab" data-section="ai-agents">
                 <i class="fas fa-robot"></i> AI Agents (<span id="ai-agents-nav-count"></span>)
             </a>
             <a href="#benchmarks" class="nav-tab" data-section="benchmarks">
                 <i class="fas fa-chart-bar"></i> Benchmarks (<span id="benchmarks-nav-count"></span>)
+            </a>
+            <a href="#evaluation-frameworks" class="nav-tab" data-section="evaluation-frameworks">
+                <i class="fas fa-balance-scale"></i> Eval Frameworks (<span id="evaluation-frameworks-nav-count"></span>)
+            </a>
+            <a href="#methodology" class="nav-tab" data-section="methodology">
+                <i class="fas fa-microscope"></i> Methodology (<span id="methodology-nav-count"></span>)
             </a>
             <a href="#reviews" class="nav-tab" data-section="reviews">
                 <i class="fas fa-book"></i> Reviews (<span id="reviews-nav-count"></span>)
@@ -693,6 +714,32 @@
                     </div>
                 </section>
 
+                <!-- Other Models Section -->
+                <section class="section" id="other-models">
+                    <div class="section-header">
+                        <i class="fas fa-cogs"></i>
+                        <h2 class="section-title">Other Models</h2>
+                        <span class="section-count" id="other-models-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="other-models-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
                 <!-- AI Agents Section -->
                 <section class="section" id="ai-agents">
                     <div class="section-header">
@@ -739,6 +786,58 @@
                                 </tr>
                             </thead>
                             <tbody id="benchmarks-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Evaluation Frameworks Section -->
+                <section class="section" id="evaluation-frameworks">
+                    <div class="section-header">
+                        <i class="fas fa-balance-scale"></i>
+                        <h2 class="section-title">Evaluation Frameworks</h2>
+                        <span class="section-count" id="evaluation-frameworks-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="evaluation-frameworks-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Methodology Section -->
+                <section class="section" id="methodology">
+                    <div class="section-header">
+                        <i class="fas fa-microscope"></i>
+                        <h2 class="section-title">Methodology</h2>
+                        <span class="section-count" id="methodology-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="methodology-tbody">
                                 <!-- Data will be populated by JavaScript -->
                             </tbody>
                         </table>
@@ -954,8 +1053,11 @@
             const categoryNames = {
                 'static-models': 'Static Models',
                 'dynamic-models': 'Dynamic Models',
+                'other-models': 'Other Models',
                 'ai-agents': 'AI Agents',
                 'benchmarks': 'Benchmarks',
+                'evaluation-frameworks': 'Evaluation Frameworks',
+                'methodology': 'Methodology',
                 'reviews': 'Reviews',
                 'paper-before-2022': 'Paper Before 2022'
             };
@@ -1019,21 +1121,27 @@
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["Static Models", "Dynamic Models", "AI Agents", "Benchmarks", "Reviews", "Paper Before 2022"],
+                    labels: ["Static Models", "Dynamic Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2022"],
                     datasets: [{
                         data: [
                             stats["static-models"] || 0,
                             stats["dynamic-models"] || 0,
+                            stats["other-models"] || 0,
                             stats["ai-agents"] || 0,
                             stats["benchmarks"] || 0,
+                            stats["evaluation-frameworks"] || 0,
+                            stats["methodology"] || 0,
                             stats["reviews"] || 0,
                             stats["paper-before-2022"] || 0
                         ],
                         backgroundColor: [
                             '#667eea',
                             '#764ba2',
+                            '#9c27b0',
                             '#f5576c',
                             '#4facfe',
+                            '#00bcd4',
+                            '#009688',
                             '#43e97b',
                             '#ffa726'
                         ]
