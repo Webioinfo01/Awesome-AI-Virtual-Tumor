@@ -1,17 +1,57 @@
 {
     "static-models": [
         {
-            "year": "2025.11",
-            "title": "mRNABERT: advancing mRNA sequence design with a universal language model and comprehensive dataset",
-            "team": "Tingjun Hou",
+            "year": "2025.12",
+            "title": "A lung CT vision foundation model facilitating disease diagnosis and medical imaging.",
+            "team": "Qionghai Dai",
             "team website": "",
             "affiliation": "",
-            "domain": "mRNA Sequence Design with Language Models",
-            "venue": "Nature Communications",
-            "paperUrl": "https://www.semanticscholar.org/paper/c9cd1f5b57f86be3a656f17a0dc0ed32a4e82825",
+            "domain": "CT imaging foundation model",
+            "abstract": "",
+            "venue": "Nature communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/37e1003be2e2cc4c1f09352c17363597d47f6740",
             "codeUrl": "",
             "githubStars": "",
-            "doi": "10.1038/s41467-025-65340-8"
+            "doi": "10.1038/s41467-025-66620-z"
+        },
+        {
+            "year": "2025.11",
+            "title": "A multimodal whole-slide foundation model for pathology",
+            "team": "Faisal Mahmood",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Multimodal pathology foundation model",
+            "venue": "Nature Medicine",
+            "paperUrl": "https://www.semanticscholar.org/paper/27ef41325e809dc35657540d14bcbb79cadad20f",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41591-025-03982-3"
+        },
+        {
+            "year": "2024.06",
+            "title": "scFoundation: Large-scale foundation model on single-cell transcriptomics",
+            "team": "Biomap research(Le Song, Xuegong Zhang)",
+            "team website": "https://github.com/biomap-research",
+            "affiliation": "",
+            "domain": "single cell RNA",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.nature.com/articles/s41592-024-02305-7",
+            "codeUrl": "https://github.com/biomap-research/scFoundation",
+            "githubStars": "https://img.shields.io/github/stars/biomap-research/scFoundation",
+            "doi": ""
+        },
+        {
+            "year": "2024.02",
+            "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+            "team": "Bo Wang",
+            "team website": "https://github.com/bowang-lab",
+            "affiliation": "",
+            "domain": "single cell RNA",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.nature.com/articles/s41592-024-02201-0",
+            "codeUrl": "https://github.com/bowang-lab/scGPT",
+            "githubStars": "https://img.shields.io/github/stars/bowang-lab/scGPT",
+            "doi": ""
         }
     ],
     "dynamic-models": [
@@ -43,6 +83,32 @@
             "doi": "doi.org/10.1038/s43588-025-00870-1"
         },
         {
+            "year": "2025.05",
+            "title": "A visual–omics foundation model to bridge histopathology with spatial transcriptomics",
+            "team": "Guangyu Wang",
+            "team website": "https://guangyuwanglab.github.io/web/",
+            "affiliation": "",
+            "domain": "histopathology and spatial single cell RNA",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.nature.com/articles/s41592-025-02707-1",
+            "codeUrl": "https://github.com/GuangyuWangLab2021/Loki",
+            "githubStars": "https://img.shields.io/github/stars/GuangyuWangLab2021/Loki",
+            "doi": ""
+        },
+        {
+            "year": "2025.01",
+            "title": "A foundation model of transcription across human cell types",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "transcriptional regulation(ATAC-seq)",
+            "venue": "Nature",
+            "paperUrl": "https://www.nature.com/articles/s41586-024-08391-z",
+            "codeUrl": "https://github.com/GET-Foundation",
+            "githubStars": "https://img.shields.io/github/stars/GET-Foundation/get_model",
+            "doi": ""
+        },
+        {
             "year": "2025.01",
             "title": "Predicting cell morphological responses to perturbations using generative modeling",
             "team": "Fabian J. Theis, Mohammad Lotfollahi",
@@ -54,6 +120,21 @@
             "codeUrl": "https://github.com/theislab/IMPA",
             "githubStars": "https://img.shields.io/github/stars/theislab/IMPA",
             "doi": ""
+        }
+    ],
+    "sequence-models": [
+        {
+            "year": "2025.11",
+            "title": "mRNABERT: advancing mRNA sequence design with a universal language model and comprehensive dataset",
+            "team": "Tingjun Hou",
+            "team website": "",
+            "affiliation": "",
+            "domain": "mRNA Sequence Design with Language Models",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/c9cd1f5b57f86be3a656f17a0dc0ed32a4e82825",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-025-65340-8"
         },
         {
             "year": "2024.07",
@@ -67,89 +148,6 @@
             "codeUrl": "https://zenodo.org/records/13374192",
             "githubStars": "",
             "doi": ""
-        }
-    ],
-    "sequence-models": [
-        {
-            "year": "2025.07",
-            "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
-            "team": "Microsoft Research(Frank Noé)",
-            "team website": "https://github.com/microsoft",
-            "affiliation": "",
-            "domain": "Protein",
-            "venue": "Science",
-            "paperUrl": "https://www.science.org/doi/10.1126/science.adv9817",
-            "codeUrl": "https://github.com/microsoft/bioemu",
-            "githubStars": "https://img.shields.io/github/stars/microsoft/bioemu",
-            "doi": ""
-        },
-        {
-            "year": "2025.01",
-            "title": "Simulating 500 million years of evolution with a language model",
-            "team": "Alexander Rives",
-            "team website": "https://github.com/evolutionaryscale",
-            "affiliation": "EvolutionaryScale",
-            "domain": "Protein",
-            "venue": "Science",
-            "paperUrl": "https://www.science.org/doi/10.1126/science.ads0018",
-            "codeUrl": "https://github.com/evolutionaryscale/esm",
-            "githubStars": "https://img.shields.io/github/stars/evolutionaryscale/esm",
-            "doi": ""
-        }
-    ],
-    "other-models": [
-        {
-            "year": "2025.12",
-            "title": "A lung CT vision foundation model facilitating disease diagnosis and medical imaging.",
-            "team": "Qionghai Dai",
-            "team website": "",
-            "affiliation": "",
-            "domain": "CT imaging foundation model",
-            "abstract": "",
-            "venue": "Nature communications",
-            "paperUrl": "https://www.semanticscholar.org/paper/37e1003be2e2cc4c1f09352c17363597d47f6740",
-            "codeUrl": "",
-            "githubStars": "",
-            "doi": "10.1038/s41467-025-66620-z"
-        },
-        {
-            "year": "2025.11",
-            "title": "A multimodal whole-slide foundation model for pathology",
-            "team": "Faisal Mahmood",
-            "team website": "",
-            "affiliation": "",
-            "domain": "Multimodal pathology foundation model",
-            "venue": "Nature Medicine",
-            "paperUrl": "https://www.semanticscholar.org/paper/27ef41325e809dc35657540d14bcbb79cadad20f",
-            "codeUrl": "",
-            "githubStars": "",
-            "doi": "10.1038/s41591-025-03982-3"
-        },
-        {
-            "year": "2025.11",
-            "title": "A pre-trained large generative model for translating single-cell transcriptomes to proteomes",
-            "team": "Jianhua Yao",
-            "team website": "",
-            "affiliation": "Tencent",
-            "domain": "a pre-trained large generative model for translating single-cell transcriptomes to proteomes",
-            "venue": "Nature Biomedical Engineering",
-            "paperUrl": "https://www.nature.com/articles/s41551-025-01528-z",
-            "codeUrl": "https://github.com/TencentAILabHealthcare/scTranslator",
-            "githubStars": "https://img.shields.io/github/stars/TencentAILabHealthcare/scTranslator",
-            "doi": "https://doi.org/10.1038/s41551-025-01528-z"
-        },
-        {
-            "year": "2025.10",
-            "title": "Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes",
-            "team": "Fabian J. Theis",
-            "team website": "https://github.com/theislab",
-            "affiliation": "Technical University of Munich",
-            "domain": "Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes",
-            "venue": "Science",
-            "paperUrl": "https://www.science.org/doi/10.1126/science.adi8577",
-            "codeUrl": "",
-            "githubStars": "",
-            "doi": "10.1126/science.adi8577"
         },
         {
             "year": "2025.07",
@@ -178,29 +176,55 @@
             "doi": ""
         },
         {
+            "year": "2025.07",
+            "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
+            "team": "Microsoft Research(Frank Noé)",
+            "team website": "https://github.com/microsoft",
+            "affiliation": "",
+            "domain": "Protein",
+            "venue": "Science",
+            "paperUrl": "https://www.science.org/doi/10.1126/science.adv9817",
+            "codeUrl": "https://github.com/microsoft/bioemu",
+            "githubStars": "https://img.shields.io/github/stars/microsoft/bioemu",
+            "doi": ""
+        },
+        {
+            "year": "2025.01",
+            "title": "Simulating 500 million years of evolution with a language model",
+            "team": "Alexander Rives",
+            "team website": "https://github.com/evolutionaryscale",
+            "affiliation": "EvolutionaryScale",
+            "domain": "Protein",
+            "venue": "Science",
+            "paperUrl": "https://www.science.org/doi/10.1126/science.ads0018",
+            "codeUrl": "https://github.com/evolutionaryscale/esm",
+            "githubStars": "https://img.shields.io/github/stars/evolutionaryscale/esm",
+            "doi": ""
+        },
+        {
+            "year": "2025.11",
+            "title": "A pre-trained large generative model for translating single-cell transcriptomes to proteomes",
+            "team": "Jianhua Yao",
+            "team website": "",
+            "affiliation": "Tencent",
+            "domain": "translating single-cell transcriptomes to proteomes",
+            "venue": "Nature Biomedical Engineering",
+            "paperUrl": "https://www.nature.com/articles/s41551-025-01528-z",
+            "codeUrl": "https://github.com/TencentAILabHealthcare/scTranslator",
+            "githubStars": "https://img.shields.io/github/stars/TencentAILabHealthcare/scTranslator",
+            "doi": "https://doi.org/10.1038/s41551-025-01528-z"
+        },
+        {
             "year": "2025.06",
             "title": "A multimodal conversational agent for DNA, RNA and protein tasks",
-            "team": "InstaDeep(Thomas Pierrot)",
+            "team": "Thomas Pierrot",
             "team website": "https://huggingface.co/InstaDeepAI",
-            "affiliation": "",
+            "affiliation": "InstaDeep",
             "domain": "Diverse Omics include DNA/RNA/Protein",
             "venue": "Nature Machine Intelligence",
             "paperUrl": "https://www.nature.com/articles/s42256-025-01047-1",
             "codeUrl": "https://huggingface.co/InstaDeepAI/ChatNT",
             "githubStars": "",
-            "doi": ""
-        },
-        {
-            "year": "2025.05",
-            "title": "A visual–omics foundation model to bridge histopathology with spatial transcriptomics",
-            "team": "Guangyu Wang",
-            "team website": "https://guangyuwanglab.github.io/web/",
-            "affiliation": "",
-            "domain": "histopathology and spatial single cell RNA",
-            "venue": "Nature Methods",
-            "paperUrl": "https://www.nature.com/articles/s41592-025-02707-1",
-            "codeUrl": "https://github.com/GuangyuWangLab2021/Loki",
-            "githubStars": "https://img.shields.io/github/stars/GuangyuWangLab2021/Loki",
             "doi": ""
         },
         {
@@ -217,32 +241,6 @@
             "doi": ""
         },
         {
-            "year": "2025.04",
-            "title": "Towards multimodal foundation models in molecular cell biology.",
-            "team": "Bo Wang",
-            "team website": "",
-            "affiliation": "",
-            "domain": "Multimodal molecular biology foundation models",
-            "venue": "Nature",
-            "paperUrl": "https://www.semanticscholar.org/paper/7f65931fb6bbfca0496c919e83ed40e910b2dc5f",
-            "codeUrl": "",
-            "githubStars": "",
-            "doi": "10.1038/s41586-025-08710-y"
-        },
-        {
-            "year": "2025.01",
-            "title": "A foundation model of transcription across human cell types",
-            "team": "",
-            "team website": "",
-            "affiliation": "",
-            "domain": "transcriptional regulation(ATAC-seq)",
-            "venue": "Nature",
-            "paperUrl": "https://www.nature.com/articles/s41586-024-08391-z",
-            "codeUrl": "https://github.com/GET-Foundation",
-            "githubStars": "https://img.shields.io/github/stars/GET-Foundation/get_model",
-            "doi": ""
-        },
-        {
             "year": "2024.11",
             "title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
             "team": "",
@@ -253,19 +251,6 @@
             "paperUrl": "https://www.nature.com/articles/s41592-024-02523-z",
             "codeUrl": "https://github.com/instadeepai/nucleotide-transformer",
             "githubStars": "https://img.shields.io/github/stars/instadeepai/nucleotide-transformer",
-            "doi": ""
-        },
-        {
-            "year": "2024.06",
-            "title": "scFoundation: Large-scale foundation model on single-cell transcriptomics",
-            "team": "Biomap research(Le Song, Xuegong Zhang)",
-            "team website": "https://github.com/biomap-research",
-            "affiliation": "",
-            "domain": "single cell RNA",
-            "venue": "Nature Communications",
-            "paperUrl": "https://www.nature.com/articles/s41592-024-02305-7",
-            "codeUrl": "https://github.com/biomap-research/scFoundation",
-            "githubStars": "https://img.shields.io/github/stars/biomap-research/scFoundation",
             "doi": ""
         },
         {
@@ -280,45 +265,21 @@
             "codeUrl": "https://github.com/google-deepmind/alphafold3",
             "githubStars": "https://img.shields.io/github/stars/google-deepmind/alphafold3",
             "doi": ""
-        },
+        }
+    ],
+    "other-models": [
         {
-            "year": "2024.02",
-            "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
-            "team": "Bo Wang",
-            "team website": "https://github.com/bowang-lab",
-            "affiliation": "",
-            "domain": "single cell RNA",
-            "venue": "Nature Methods",
-            "paperUrl": "https://www.nature.com/articles/s41592-024-02201-0",
-            "codeUrl": "https://github.com/bowang-lab/scGPT",
-            "githubStars": "https://img.shields.io/github/stars/bowang-lab/scGPT",
-            "doi": ""
-        },
-        {
-            "year": "2023.10",
-            "title": "ProGen2: Exploring the boundaries of protein language models",
-            "team": "Salesforce Research( Ali Madani)",
-            "team website": "https://github.com/salesforce",
-            "affiliation": "",
-            "domain": "Protein",
-            "venue": "Cell Systems",
-            "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/37909046/",
-            "codeUrl": "https://github.com/salesforce/progen",
-            "githubStars": "https://img.shields.io/github/stars/salesforce/progen",
-            "doi": ""
-        },
-        {
-            "year": "2023.05",
-            "title": "Transfer learning enables predictions in network biology",
-            "team": "",
-            "team website": "",
-            "affiliation": "",
-            "domain": "General scRNA tasks, discovery of key network regulators and candidate therapeutic targets",
-            "venue": "Nature",
-            "paperUrl": "https://www.nature.com/articles/s41586-023-06139-9",
-            "codeUrl": "https://huggingface.co/ctheodoris/Geneformer",
+            "year": "2025.10",
+            "title": "Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes",
+            "team": "Fabian J. Theis",
+            "team website": "https://github.com/theislab",
+            "affiliation": "Technical University of Munich",
+            "domain": "close-in-the-loop predict drugs for disease phenotypes",
+            "venue": "Science",
+            "paperUrl": "https://www.science.org/doi/10.1126/science.adi8577",
+            "codeUrl": "",
             "githubStars": "",
-            "doi": ""
+            "doi": "10.1126/science.adi8577"
         }
     ],
     "ai-agents": [
@@ -430,8 +391,38 @@
             "doi": "10.1038/s42256-025-01072-0"
         }
     ],
-    "evaluation-frameworks": [],
-    "methodology": [],
+    "evaluation-frameworks": [
+        {
+            "year": "2025.08",
+            "title": "Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation.",
+            "team": "Maria Brbić",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "abstract": "",
+            "venue": "Nature Biotechnology",
+            "paperUrl": "https://www.semanticscholar.org/paper/4cd1f83c8b5d89b30355e9210ae9f67a489873d0",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41587-025-02777-8"
+        }
+    ],
+    "methodology": [
+        {
+            "year": "2025.11",
+            "title": "Monod: model-based discovery and integration through fitting stochastic transcriptional dynamics to single-cell sequencing data",
+            "team": "L. Pachter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "abstract": "Single-cell RNA sequencing analysis centers on illuminating cell diversity and understanding the transcriptional mechanisms underlying cellular function. These datasets are large, noisy, and complex. Current analyses prioritize noise removal and dimensionality reduction to tackle these challenges and extract biological insight. We propose an alternative, physical approach to leverage the stochasticity, size, and multimodal nature of these data to explicitly distinguish their biological and technical facets while revealing the underlying regulatory processes. With the Python package Monod, we demonstrate how nascent and mature RNA counts, present in most published datasets, can be meaningfully “integrated” under biophysical models of transcription. By utilizing variation in these modalities, we can identify transcriptional modulation not discernible though changes in average gene expression, quantitatively compare mechanistic hypotheses of gene regulation, analyze transcriptional data from different technologies within a common framework, and minimize the use of opaque or distortive normalization and transformation techniques.",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/f8c2fc7128c26bc5abab6e6b55b61154c691c749",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-025-02832-x"
+        }
+    ],
     "reviews": [
         {
             "year": "2025.12",
@@ -484,6 +475,19 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1016/j.cell.2025.05.018"
+        },
+        {
+            "year": "2025.04",
+            "title": "Towards multimodal foundation models in molecular cell biology.",
+            "team": "Bo Wang",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Multimodal molecular biology foundation models",
+            "venue": "Nature",
+            "paperUrl": "https://www.semanticscholar.org/paper/7f65931fb6bbfca0496c919e83ed40e910b2dc5f",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41586-025-08710-y"
         },
         {
             "year": "2025.01",
