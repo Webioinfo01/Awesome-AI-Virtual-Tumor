@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Perturbation-to-Phenotype AI</title>
-    <meta name="description" content="A curated survey of AI models and agents for mapping perturbations to phenotypes, including static models, dynamic models, sequence models, agents, benchmarks, reviews, and pre-2024 papers.">
+    <meta name="description" content="A curated survey of AI models and agents for mapping perturbations to phenotypes, including static models, dynamic models, sequence models, agents, databases, tools & infrastructure, benchmarks, reviews, and pre-2024 papers.">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -548,6 +548,14 @@
                     <div class="stat-label">AI Agents</div>
                 </div>
                 <div class="stat-item">
+                    <div class="stat-number" id="databases-count"></div>
+                    <div class="stat-label">Databases</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="tools-infrastructure-count"></div>
+                    <div class="stat-label">Tools & Infrastructure</div>
+                </div>
+                <div class="stat-item">
                     <div class="stat-number" id="benchmarks-count"></div>
                     <div class="stat-label">Benchmarks</div>
                 </div>
@@ -615,6 +623,12 @@
             </a>
             <a href="#ai-agents" class="nav-tab" data-section="ai-agents">
                 <i class="fas fa-robot"></i> AI Agents (<span id="ai-agents-nav-count"></span>)
+            </a>
+            <a href="#databases" class="nav-tab" data-section="databases">
+                <i class="fas fa-database"></i> Databases (<span id="databases-nav-count"></span>)
+            </a>
+            <a href="#tools-infrastructure" class="nav-tab" data-section="tools-infrastructure">
+                <i class="fas fa-tools"></i> Tools & Infrastructure (<span id="tools-infrastructure-nav-count"></span>)
             </a>
             <a href="#benchmarks" class="nav-tab" data-section="benchmarks">
                 <i class="fas fa-chart-bar"></i> Benchmarks (<span id="benchmarks-nav-count"></span>)
@@ -793,6 +807,58 @@
                                 </tr>
                             </thead>
                             <tbody id="ai-agents-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Databases Section -->
+                <section class="section" id="databases">
+                    <div class="section-header">
+                        <i class="fas fa-database"></i>
+                        <h2 class="section-title">Databases</h2>
+                        <span class="section-count" id="databases-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="databases-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Tools & Infrastructure Section -->
+                <section class="section" id="tools-infrastructure">
+                    <div class="section-header">
+                        <i class="fas fa-tools"></i>
+                        <h2 class="section-title">Tools & Infrastructure</h2>
+                        <span class="section-count" id="tools-infrastructure-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tools-infrastructure-tbody">
                                 <!-- Data will be populated by JavaScript -->
                             </tbody>
                         </table>
@@ -1089,6 +1155,8 @@
                 'sequence-models': 'Sequence Models',
                 'other-models': 'Other Models',
                 'ai-agents': 'AI Agents',
+                'databases': 'Databases',
+                'tools-infrastructure': 'Tools & Infrastructure',
                 'benchmarks': 'Benchmarks',
                 'evaluation-frameworks': 'Evaluation Frameworks',
                 'methodology': 'Methodology',
@@ -1155,7 +1223,7 @@
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2024"],
+                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Databases", "Tools & Infrastructure", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2024"],
                     datasets: [{
                         data: [
                             stats["static-models"] || 0,
@@ -1163,6 +1231,8 @@
                             stats["sequence-models"] || 0,
                             stats["other-models"] || 0,
                             stats["ai-agents"] || 0,
+                            stats["databases"] || 0,
+                            stats["tools-infrastructure"] || 0,
                             stats["benchmarks"] || 0,
                             stats["evaluation-frameworks"] || 0,
                             stats["methodology"] || 0,
@@ -1175,6 +1245,8 @@
                             '#f093fb',
                             '#9c27b0',
                             '#f5576c',
+                            '#ff9800',
+                            '#795548',
                             '#4facfe',
                             '#00bcd4',
                             '#009688',

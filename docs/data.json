@@ -7,7 +7,6 @@
             "team website": "",
             "affiliation": "",
             "domain": "CT imaging foundation model",
-            "abstract": "",
             "venue": "Nature communications",
             "paperUrl": "https://www.semanticscholar.org/paper/37e1003be2e2cc4c1f09352c17363597d47f6740",
             "codeUrl": "",
@@ -62,7 +61,6 @@
             "team website": "",
             "affiliation": "",
             "domain": "LLM embeddings to predict transcriptional responses",
-            "abstract": "",
             "venue": "Nature computational science",
             "paperUrl": "https://www.semanticscholar.org/paper/ef1e5451d11c0684b4867e410682daf776ab91c8",
             "codeUrl": "",
@@ -280,6 +278,45 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1126/science.adi8577"
+        },
+        {
+            "year": "2024.10",
+            "title": "Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery",
+            "team": "Yi Zhao",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/c63fa5a62a2c54de65ceaedf720d826d3b92129b",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-024-53457-1"
+        },
+        {
+            "year": "2024.06",
+            "title": "Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery",
+            "team": "Mingyue Zheng",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/4c5916a879490d67fb48ad872b52d27539ca4a54",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-024-49620-3"
+        },
+        {
+            "year": "2024.04",
+            "title": "PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors",
+            "team": "E. Ruppin",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Cancer",
+            "paperUrl": "https://www.semanticscholar.org/paper/ffc5edf31ff74929bdf67e64bc922c3d121ffeb8",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s43018-024-00756-7"
         }
     ],
     "ai-agents": [
@@ -290,7 +327,6 @@
             "team website": "",
             "affiliation": "",
             "domain": "automated single-cell annotation via multi-agent LLMs",
-            "abstract": "",
             "venue": "Nature communications",
             "paperUrl": "https://www.semanticscholar.org/paper/7de5beff1eb163c66310e4291928c6f2d7bb34ac",
             "codeUrl": "",
@@ -363,6 +399,127 @@
             "doi": ""
         }
     ],
+    "databases": [
+        {
+            "year": "2025.11",
+            "title": "BV-BRC: a unified bacterial and viral bioinformatics resource with expanded functionality and AI integration.",
+            "team": "Rick L. Stevens",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Bacterial and Viral Bioinformatics Resource",
+            "venue": "Nucleic acids research",
+            "paperUrl": "https://www.semanticscholar.org/paper/693c203c962996b3a53f115787aa2ad849ba4f16",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1093/nar/gkaf1254"
+        },
+        {
+            "year": "2025.06",
+            "title": "X-Atlas/Orion: Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Genome-wide Perturb-seq Datasets",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1",
+            "codeUrl": "10.25452/figshare.plus.29190726",
+            "githubStars": "",
+            "doi": ""
+        },
+        {
+            "year": "2025.05",
+            "title": "scCompass: An Integrated Multi-Species scRNA-seq Database for AI-Ready",
+            "team": "Yuanchun Zhou",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Multi-species scRNA-seq database for AI-ready applications",
+            "venue": "Advanced Science",
+            "paperUrl": "https://www.semanticscholar.org/paper/f5af8e3f7acd968b7baeb788f5b33cf7d868616e",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1002/advs.202500870"
+        },
+        {
+            "year": "2025.02",
+            "title": "scBaseCount: an AI agent-curated, uniformly processed, and continually expanding single cell data repository",
+            "team": "Arc Institute(Yusuf H. Roohani)",
+            "team website": "https://github.com/ArcInstitute",
+            "affiliation": "",
+            "domain": "preprocess scRNA data",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v2",
+            "codeUrl": "https://github.com/ArcInstitute/SRAgent",
+            "githubStars": "https://img.shields.io/github/stars/ArcInstitute/SRAgent",
+            "doi": ""
+        },
+        {
+            "year": "2025.02",
+            "title": "Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
+            "team": "tahoebio(but in arc's repository)",
+            "team website": "https://github.com/ArcInstitute",
+            "affiliation": "",
+            "domain": "Drug perturbation scRNA",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398v3",
+            "codeUrl": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
+            "githubStars": "https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas",
+            "doi": ""
+        },
+        {
+            "year": "2024.01",
+            "title": "scPerturb: harmonized single-cell perturbation data",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "scRNA perturbation(44 public datasets, drugs and genes)",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.nature.com/articles/s41592-023-02144-y",
+            "codeUrl": "https://github.com/sanderlab/scPerturb/",
+            "githubStars": "https://img.shields.io/github/stars/sanderlab/scPerturb",
+            "doi": ""
+        }
+    ],
+    "tools-infrastructure": [
+        {
+            "year": "2025.11",
+            "title": "CellOntologyMapper: Consensus mapping of cell type annotation",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Consensus mapping of cell type annotation",
+            "venue": "iMetaOmics",
+            "paperUrl": "https://onlinelibrary.wiley.com/doi/10.1002/imo2.70064",
+            "codeUrl": "https://github.com/Starlitnightly/CellOntologyMapper",
+            "githubStars": "https://img.shields.io/github/stars/Starlitnightly/CellOntologyMapper",
+            "doi": "10.1002/imo2.70064"
+        },
+        {
+            "year": "2025.04",
+            "title": "scMultiSim: simulation of single-cell multi-omics and spatial data guided by gene regulatory networks and cell–cell interactions",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Simulation of single-cell multi-omics and spatial data",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.nature.com/articles/s41592-025-02651-0",
+            "codeUrl": "https://github.com/ZhangLabGT/scMultiSim/",
+            "githubStars": "https://img.shields.io/github/stars/ZhangLabGT/scMultiSim",
+            "doi": ""
+        },
+        {
+            "year": "2025.04",
+            "title": "uHAF: a unified hierarchical annotation framework for cell type standardization and harmonization",
+            "team": "Xuegong Zhang",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Hierarchical Framework for Cell Type Annotation and Harmonization",
+            "venue": "Bioinformatics",
+            "paperUrl": "https://www.semanticscholar.org/paper/e3ce9b990c9604648ad39e38275cd61b7711415a",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1093/bioinformatics/btaf149"
+        }
+    ],
     "benchmarks": [
         {
             "year": "2025.12",
@@ -376,6 +533,19 @@
             "codeUrl": "https://github.com/QSong-github/scDrugMap",
             "githubStars": "https://img.shields.io/github/stars/QSong-github/scDrugMap",
             "doi": "10.1038/s41467-025-67481-2"
+        },
+        {
+            "year": "2025.12",
+            "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction.",
+            "team": "Qi Liu",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/e8eeb58f3cdd1461d1c761db907dfe7ef7b23057",
+            "codeUrl": "https://github.com/bm2-lab/scPerturBench/",
+            "githubStars": "https://img.shields.io/github/stars/bm2-lab/scPerturBench",
+            "doi": "10.1038/s41592-025-02980-0"
         },
         {
             "year": "2025.08",
@@ -399,7 +569,6 @@
             "team website": "",
             "affiliation": "",
             "domain": "",
-            "abstract": "",
             "venue": "Nature Biotechnology",
             "paperUrl": "https://www.semanticscholar.org/paper/4cd1f83c8b5d89b30355e9210ae9f67a489873d0",
             "codeUrl": "",
@@ -415,12 +584,50 @@
             "team website": "",
             "affiliation": "",
             "domain": "",
-            "abstract": "Single-cell RNA sequencing analysis centers on illuminating cell diversity and understanding the transcriptional mechanisms underlying cellular function. These datasets are large, noisy, and complex. Current analyses prioritize noise removal and dimensionality reduction to tackle these challenges and extract biological insight. We propose an alternative, physical approach to leverage the stochasticity, size, and multimodal nature of these data to explicitly distinguish their biological and technical facets while revealing the underlying regulatory processes. With the Python package Monod, we demonstrate how nascent and mature RNA counts, present in most published datasets, can be meaningfully “integrated” under biophysical models of transcription. By utilizing variation in these modalities, we can identify transcriptional modulation not discernible though changes in average gene expression, quantitatively compare mechanistic hypotheses of gene regulation, analyze transcriptional data from different technologies within a common framework, and minimize the use of opaque or distortive normalization and transformation techniques.",
             "venue": "bioRxiv",
             "paperUrl": "https://www.semanticscholar.org/paper/f8c2fc7128c26bc5abab6e6b55b61154c691c749",
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1038/s41592-025-02832-x"
+        },
+        {
+            "year": "2025.10",
+            "title": "Efficient and accurate search in petabase-scale sequence repositories",
+            "team": "André Kahles",
+            "team website": "",
+            "affiliation": "ETH Zurich",
+            "domain": "Efficient and accurate search in petabase-scale sequence repositories",
+            "venue": "Nature",
+            "paperUrl": "https://www.nature.com/articles/s41586-025-09603-w",
+            "codeUrl": "https://github.com/ratschlab/metagraph",
+            "githubStars": "https://img.shields.io/github/stars/ratschlab/metagraph",
+            "doi": "10.1038/s41586-025-09603-w"
+        },
+        {
+            "year": "2025.04",
+            "title": "OmniCellTOSG: The First Cell Text-Omic Signaling Graphs Dataset for Joint LLM and GNN Modeling",
+            "team": "Fuhai Li",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Text-omic signaling graph dataset",
+            "venue": "ArXiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/fd87bf03430232aa9c2aeb733bd8d6dc023c4ef7",
+            "codeUrl": "https://github.com/FuhaiLiAiLab/OmniCellTOSG",
+            "githubStars": "https://img.shields.io/github/stars/FuhaiLiAiLab/OmniCellTOSG",
+            "doi": "10.48550/arXiv.2504.02148"
+        },
+        {
+            "year": "2024.06",
+            "title": "Learning Molecular Representation in a Cell",
+            "team": "Shantanu Singh",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "International Conference on Learning Representations",
+            "paperUrl": "https://www.semanticscholar.org/paper/6db33b94c598876b05b7af83901a3a69d60eb47d",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.48550/arXiv.2406.12056"
         }
     ],
     "reviews": [
@@ -431,7 +638,6 @@
             "team website": "",
             "affiliation": "",
             "domain": "Multimodal transformer for genomics",
-            "abstract": "",
             "venue": "Nature Methods",
             "paperUrl": "https://www.semanticscholar.org/paper/336d539daa17f126463a3373d00df732a0f04c83",
             "codeUrl": "",
@@ -503,6 +709,19 @@
             "doi": "10.1126/science.adv4414"
         },
         {
+            "year": "2024.12",
+            "title": "Cell Painting: a decade of discovery and innovation in cellular imaging",
+            "team": "A. Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/39d589719ee47fb817006f37ed1c231ddd88fdeb",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-024-02528-8"
+        },
+        {
             "year": "2024.10",
             "title": "Empowering biomedical discovery with AI agents",
             "team": "",
@@ -540,6 +759,32 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": ""
+        },
+        {
+            "year": "2022.05",
+            "title": "Phenotypic drug discovery: recent successes, lessons learned and new directions",
+            "team": "M. Mercola",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature reviews. Drug discovery",
+            "paperUrl": "https://www.semanticscholar.org/paper/2d09c3857d4b0db8c4d47ef44702393861071c88",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41573-022-00472-w"
+        },
+        {
+            "year": "2020.12",
+            "title": "Image-based profiling for drug discovery: due for a machine-learning upgrade?",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature reviews. Drug discovery",
+            "paperUrl": "https://www.semanticscholar.org/paper/082c82bfec1b087395db9ff377131600ac75b8e4",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41573-020-00117-w"
         }
     ],
     "paper-before-2024": [
@@ -557,6 +802,32 @@
             "doi": ""
         },
         {
+            "year": "2023.08",
+            "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+            "team": "J. Leskovec",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Biotechnology",
+            "paperUrl": "https://www.semanticscholar.org/paper/85906593661911c9a076cbb96391b9bb61a996bc",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41587-023-01905-6"
+        },
+        {
+            "year": "2023.07",
+            "title": "An interpretable deep learning framework for genome-informed precision oncology",
+            "team": "Xinghua Lu",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/16a77da1c7e35ad72fd9aa3aecae2ed6ae15675b",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s42256-024-00866-y"
+        },
+        {
             "year": "2023.05",
             "title": "Transfer learning enables predictions in network biology",
             "team": "",
@@ -568,6 +839,19 @@
             "codeUrl": "https://huggingface.co/ctheodoris/Geneformer",
             "githubStars": "",
             "doi": ""
+        },
+        {
+            "year": "2023.02",
+            "title": "Enabling Single‐Cell Drug Response Annotations from Bulk RNA‐Seq Using SCAD",
+            "team": "Ka-chun Wong",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Advancement of science",
+            "paperUrl": "https://www.semanticscholar.org/paper/f8729b20b63c8c841a399bf428e611a7ab8aa6ae",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1002/advs.202204113"
         }
     ]
 }
