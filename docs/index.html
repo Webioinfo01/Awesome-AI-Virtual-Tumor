@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Perturbation-to-Phenotype AI</title>
-    <meta name="description" content="A curated survey of AI models and agents for mapping perturbations to phenotypes, including static models, dynamic models, agents, benchmarks, reviews, and pre-2022 papers.">
+    <meta name="description" content="A curated survey of AI models and agents for mapping perturbations to phenotypes, including static models, dynamic models, sequence models, agents, benchmarks, reviews, and pre-2024 papers.">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -536,6 +536,10 @@
                     <div class="stat-label">Dynamic Models</div>
                 </div>
                 <div class="stat-item">
+                    <div class="stat-number" id="sequence-models-count"></div>
+                    <div class="stat-label">Sequence Models</div>
+                </div>
+                <div class="stat-item">
                     <div class="stat-number" id="other-models-count"></div>
                     <div class="stat-label">Other Models</div>
                 </div>
@@ -560,8 +564,8 @@
                     <div class="stat-label">Reviews</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number" id="paper-before-2022-count"></div>
-                    <div class="stat-label">Paper &lt; 2022</div>
+                    <div class="stat-number" id="paper-before-2024-count"></div>
+                    <div class="stat-label">Paper &lt; 2024</div>
                 </div>
             </div>
         </div>
@@ -603,6 +607,9 @@
             <a href="#dynamic-models" class="nav-tab" data-section="dynamic-models">
                 <i class="fas fa-wave-square"></i> Dynamic Models (<span id="dynamic-models-nav-count"></span>)
             </a>
+            <a href="#sequence-models" class="nav-tab" data-section="sequence-models">
+                <i class="fas fa-list-ol"></i> Sequence Models (<span id="sequence-models-nav-count"></span>)
+            </a>
             <a href="#other-models" class="nav-tab" data-section="other-models">
                 <i class="fas fa-cogs"></i> Other Models (<span id="other-models-nav-count"></span>)
             </a>
@@ -621,8 +628,8 @@
             <a href="#reviews" class="nav-tab" data-section="reviews">
                 <i class="fas fa-book"></i> Reviews (<span id="reviews-nav-count"></span>)
             </a>
-            <a href="#paper-before-2022" class="nav-tab" data-section="paper-before-2022">
-                <i class="fas fa-hourglass-half"></i> Paper &lt; 2022 (<span id="paper-before-2022-nav-count"></span>)
+            <a href="#paper-before-2024" class="nav-tab" data-section="paper-before-2024">
+                <i class="fas fa-hourglass-half"></i> Paper &lt; 2024 (<span id="paper-before-2024-nav-count"></span>)
             </a>
         </div>
     </nav>
@@ -708,6 +715,32 @@
                                 </tr>
                             </thead>
                             <tbody id="dynamic-models-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Sequence Models Section -->
+                <section class="section" id="sequence-models">
+                    <div class="section-header">
+                        <i class="fas fa-list-ol"></i>
+                        <h2 class="section-title">Sequence Models</h2>
+                        <span class="section-count" id="sequence-models-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sequence-models-tbody">
                                 <!-- Data will be populated by JavaScript -->
                             </tbody>
                         </table>
@@ -870,12 +903,12 @@
                     </div>
                 </section>
 
-                <!-- Paper Before 2022 Section -->
-                <section class="section" id="paper-before-2022">
+                <!-- Paper Before 2024 Section -->
+                <section class="section" id="paper-before-2024">
                     <div class="section-header">
                         <i class="fas fa-hourglass-half"></i>
-                        <h2 class="section-title">Paper Before 2022</h2>
-                        <span class="section-count" id="paper-before-2022-section-count"></span>
+                        <h2 class="section-title">Paper Before 2024</h2>
+                        <span class="section-count" id="paper-before-2024-section-count"></span>
                     </div>
                     <div class="table-container">
                         <table class="data-table">
@@ -889,7 +922,7 @@
                                     <th>Links</th>
                                 </tr>
                             </thead>
-                            <tbody id="paper-before-2022-tbody">
+                            <tbody id="paper-before-2024-tbody">
                                 <!-- Data will be populated by JavaScript -->
                             </tbody>
                         </table>
@@ -1053,13 +1086,14 @@
             const categoryNames = {
                 'static-models': 'Static Models',
                 'dynamic-models': 'Dynamic Models',
+                'sequence-models': 'Sequence Models',
                 'other-models': 'Other Models',
                 'ai-agents': 'AI Agents',
                 'benchmarks': 'Benchmarks',
                 'evaluation-frameworks': 'Evaluation Frameworks',
                 'methodology': 'Methodology',
                 'reviews': 'Reviews',
-                'paper-before-2022': 'Paper Before 2022'
+                'paper-before-2024': 'Paper Before 2024'
             };
             return categoryNames[categoryKey] || categoryKey;
         }
@@ -1121,22 +1155,24 @@
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["Static Models", "Dynamic Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2022"],
+                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2024"],
                     datasets: [{
                         data: [
                             stats["static-models"] || 0,
                             stats["dynamic-models"] || 0,
+                            stats["sequence-models"] || 0,
                             stats["other-models"] || 0,
                             stats["ai-agents"] || 0,
                             stats["benchmarks"] || 0,
                             stats["evaluation-frameworks"] || 0,
                             stats["methodology"] || 0,
                             stats["reviews"] || 0,
-                            stats["paper-before-2022"] || 0
+                            stats["paper-before-2024"] || 0
                         ],
                         backgroundColor: [
                             '#667eea',
                             '#764ba2',
+                            '#f093fb',
                             '#9c27b0',
                             '#f5576c',
                             '#4facfe',

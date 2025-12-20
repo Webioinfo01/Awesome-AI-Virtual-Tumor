@@ -7,18 +7,19 @@
 
 This project is collaboratively maintained by our self-developed AI agent (aweagent) and human experts in a human-in-the-loop workflow, combining automated discovery with expert curation to provide a comprehensive survey of AI systems that map perturbations (genetic, chemical, environmental) to phenotypic outcomes.
 
-This repository organizes AI applications for perturbation-to-phenotype mapping into nine main categories: "Static Models", "Dynamic Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", and "Paper Before 2022".
+This repository organizes AI applications for perturbation-to-phenotype mapping into ten main categories: "Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", and "Paper Before 2024".
 
 ## 📋 Table of Contents
 - [📊 Static Models](#Static-Models) - Static representation models (e.g., scGPT, bulkformer) that do not incorporate perturbation data. These models are commonly used to represent fixed properties of biological systems, such as the topological structure of protein interaction networks, snapshots of gene expression profiles, or cell states at specific time points.
 - [🌊 Dynamic Models](#Dynamic-Models) - Dynamic models that incorporate perturbation data and temporal differences, simulating or predicting how biological processes respond to perturbations (e.g., environmental changes, drug treatments).
+- [🧬 Sequence Models](#Sequence-Models) - Sequence-based models that process sequential biological data (e.g., DNA, RNA, protein sequences).
 - [🔧 Other Models](#Other-Models) - Other representative machine learning models that contribute to perturbation-to-phenotype mapping.
 - [🤖 AI Agents](#AI-Agents) - AI agents and systems for automated perturbation-to-phenotype analysis.
 - [📈 Benchmarks](#Benchmarks) - Benchmark datasets and evaluation standards for perturbation-to-phenotype prediction.
 - [⚖️ Evaluation Frameworks](#Evaluation-Frameworks) - Novel evaluation frameworks and metrics (e.g., Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation).
 - [🔬 Methodology](#Methodology) - Methodological approaches and frameworks (e.g., Monod: model-based discovery and integration through fitting stochastic transcriptional dynamics to single-cell sequencing data).
 - [📚 Reviews](#Reviews) - Review papers and surveys on perturbation-to-phenotype AI.
-- [📜 Paper Before 2022](#Paper-Before-2022) - Historical papers published before 2022.
+- [📜 Paper Before 2024](#Paper-Before-2024) - Historical papers published before 2024.
 - [🔗 Other Awesome Projects](#Other-Awesome-Projects)
 
 ## Static Models
@@ -28,6 +29,12 @@ This repository organizes AI applications for perturbation-to-phenotype mapping 
 | <!-- Add entries here --> |
 
 ## Dynamic Models
+
+| Year | Title | Team | Team Website | Affiliation | Domain | Venue | Paper/ Source | Code/Product |
+| -----| ------| -----| -------------| ------------| -------| ------| --------------| -------------|
+| <!-- Add entries here --> |
+
+## Sequence Models
 
 | Year | Title | Team | Team Website | Affiliation | Domain | Venue | Paper/ Source | Code/Product |
 | -----| ------| -----| -------------| ------------| -------| ------| --------------| -------------|
@@ -69,7 +76,7 @@ This repository organizes AI applications for perturbation-to-phenotype mapping 
 | -----| ------| -----| -------------| ------------| -------| ------| --------------| -------------|
 | <!-- Add entries here --> |
 
-## Paper Before 2022
+## Paper Before 2024
 
 | Year | Title | Team | Team Website | Affiliation | Domain | Venue | Paper/ Source | Code/Product |
 | -----| ------| -----| -------------| ------------| -------| ------| --------------| -------------|
