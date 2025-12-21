@@ -540,6 +540,10 @@
                     <div class="stat-label">Sequence Models</div>
                 </div>
                 <div class="stat-item">
+                    <div class="stat-number" id="drug-models-count"></div>
+                    <div class="stat-label">Drug Models</div>
+                </div>
+                <div class="stat-item">
                     <div class="stat-number" id="other-models-count"></div>
                     <div class="stat-label">Other Models</div>
                 </div>
@@ -621,6 +625,9 @@
             </a>
             <a href="#sequence-models" class="nav-tab" data-section="sequence-models">
                 <i class="fas fa-list-ol"></i> Sequence Models (<span id="sequence-models-nav-count"></span>)
+            </a>
+            <a href="#drug-models" class="nav-tab" data-section="drug-models">
+                <i class="fas fa-pills"></i> Drug Models (<span id="drug-models-nav-count"></span>)
             </a>
             <a href="#other-models" class="nav-tab" data-section="other-models">
                 <i class="fas fa-cogs"></i> Other Models (<span id="other-models-nav-count"></span>)
@@ -762,6 +769,32 @@
                                 </tr>
                             </thead>
                             <tbody id="sequence-models-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Drug Models Section -->
+                <section class="section" id="drug-models">
+                    <div class="section-header">
+                        <i class="fas fa-pills"></i>
+                        <h2 class="section-title">Drug Models</h2>
+                        <span class="section-count" id="drug-models-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="drug-models-tbody">
                                 <!-- Data will be populated by JavaScript -->
                             </tbody>
                         </table>
@@ -1186,6 +1219,7 @@
                 'static-models': 'Static Models',
                 'dynamic-models': 'Dynamic Models',
                 'sequence-models': 'Sequence Models',
+                'drug-models': 'Drug Models',
                 'other-models': 'Other Models',
                 'ai-agents': 'AI Agents',
                 'databases': 'Databases',
@@ -1257,12 +1291,13 @@
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Databases", "Tools & Infrastructure", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Other Domain Foundation Models", "Paper Before 2024"],
+                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Drug Models", "Other Models", "AI Agents", "Databases", "Tools & Infrastructure", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Other Domain Foundation Models", "Paper Before 2024"],
                     datasets: [{
                         data: [
                             stats["static-models"] || 0,
                             stats["dynamic-models"] || 0,
                             stats["sequence-models"] || 0,
+                            stats["drug-models"] || 0,
                             stats["other-models"] || 0,
                             stats["ai-agents"] || 0,
                             stats["databases"] || 0,
@@ -1278,6 +1313,7 @@
                             '#667eea',
                             '#764ba2',
                             '#f093fb',
+                            '#e91e63',
                             '#9c27b0',
                             '#f5576c',
                             '#ff9800',

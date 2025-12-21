@@ -278,6 +278,34 @@
             "doi": ""
         }
     ],
+    "drug-models": [
+        {
+            "year": "2025.01",
+            "title": "SketchMol: Image-based generation for molecule design with SketchMol",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Image-based molecule generation",
+            "venue": "Nature Machine Intelligence",
+            "paperUrl": "https://www.nature.com/articles/s42256-025-00982-3",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": ""
+        },
+        {
+            "year": "2025.01",
+            "title": "Conformational Space Profiling Enhances Generic Molecular Representation for AI-Powered Ligand-Based Drug Discovery",
+            "team": "",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Molecular representation for drug discovery",
+            "venue": "",
+            "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/39206753/",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": ""
+        }
+    ],
     "other-models": [
         {
             "year": "2025.10",
@@ -372,6 +400,19 @@
         },
         {
             "year": "2024.04",
+            "title": "Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology",
+            "team": "Berton Earnshaw",
+            "team website": "https://www.rxrx.ai/",
+            "affiliation": "Recursion",
+            "domain": "microscopy data",
+            "venue": "CVPR 2024 Highlight",
+            "paperUrl": "https://arxiv.org/abs/2404.10242",
+            "codeUrl": "https://www.rxrx.ai/phenom",
+            "githubStars": "",
+            "doi": ""
+        },
+        {
+            "year": "2024.04",
             "title": "PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors",
             "team": "E. Ruppin",
             "team website": "",
@@ -457,7 +498,7 @@
             "team website": "",
             "affiliation": "",
             "domain": "PlantGPT: LLM agent for plant functional genomics question answering",
-            "venue": "Advanced science",
+            "venue": "Advanced Science",
             "paperUrl": "https://www.semanticscholar.org/paper/b0b726a254ede59afe4ab6635fb23c916ceacb94",
             "codeUrl": "",
             "githubStars": "",
@@ -531,6 +572,19 @@
             "doi": "10.1002/advs.202500870"
         },
         {
+            "year": "2025.03",
+            "title": "RxRx3-core: Benchmarking drug-target interactions in High-Content Microscopy",
+            "team": "Imran S. Haque",
+            "team website": "https://www.rxrx.ai/",
+            "affiliation": "Recursion",
+            "domain": "microscopy perturbation data",
+            "venue": "ICLR 2025",
+            "paperUrl": "https://arxiv.org/abs/2503.20158v2",
+            "codeUrl": "https://www.rxrx.ai/datasets",
+            "githubStars": "",
+            "doi": ""
+        },
+        {
             "year": "2025.02",
             "title": "scBaseCount: an AI agent-curated, uniformly processed, and continually expanding single cell data repository",
             "team": "Arc Institute(Yusuf H. Roohani)",
@@ -557,6 +611,19 @@
             "doi": ""
         },
         {
+            "year": "2024.02",
+            "title": "Cell Painting Gallery: an open resource for image-based profiling",
+            "team": "Shantanu Singh",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/24cd61ff858138b9c2086364eef75bb0d93ce0a7",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-024-02399-z"
+        },
+        {
             "year": "2024.01",
             "title": "scPerturb: harmonized single-cell perturbation data",
             "team": "",
@@ -568,6 +635,84 @@
             "codeUrl": "https://github.com/sanderlab/scPerturb/",
             "githubStars": "https://img.shields.io/github/stars/sanderlab/scPerturb",
             "doi": ""
+        },
+        {
+            "year": "2023.03",
+            "title": "JUMP Cell Painting dataset: morphological impact of 136,000 chemical and genetic perturbations",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/1f96460299f3c74965b4fe8e64c28957ada06c74",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1101/2023.03.23.534023"
+        },
+        {
+            "year": "2022.10",
+            "title": "Morphology and gene expression profiling provide complementary information for mapping cell state",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/1f7bb6a080c1db96c778793514bf2b1638b623ab",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1101/2021.10.21.465335"
+        },
+        {
+            "year": "2022.01",
+            "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/3e173f19037739ae6e84bc3b9f97957c42412660",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-024-02241-6"
+        },
+        {
+            "year": "2021.09",
+            "title": "High-Dimensional Gene Expression and Morphology Profiles of Cells across 28,000 Genetic and Chemical Perturbations",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/bff33206f1782c889c393aecb87bbd7939af61f0",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-022-01667-0"
+        },
+        {
+            "year": "2017.06",
+            "title": "Image Data Resource: a bioimage data integration and publication platform",
+            "team": "J. Swedlow",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/e0986b9ed19d71d2d48b3f1bd6cec0b9b9236b4f",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/nmeth.4326"
+        },
+        {
+            "year": "2012.06",
+            "title": "Annotated high-throughput microscopy image sets for validation",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/ff8a3d41bf4a3a6415d77a84ba58cd9b0b2c4869",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/nmeth.2083"
         }
     ],
     "tools-infrastructure": [
@@ -583,6 +728,19 @@
             "codeUrl": "https://github.com/Starlitnightly/CellOntologyMapper",
             "githubStars": "https://img.shields.io/github/stars/Starlitnightly/CellOntologyMapper",
             "doi": "10.1002/imo2.70064"
+        },
+        {
+            "year": "2025.02",
+            "title": "PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery",
+            "team": "Qianqian Song",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/937922c62c76efc089ed7fcf73f30d19c8066f01",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.48550/arXiv.2502.19568"
         },
         {
             "year": "2025.04",
@@ -609,6 +767,32 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1093/bioinformatics/btaf149"
+        },
+        {
+            "year": "2022.08",
+            "title": "Learning representations for image-based profiling of perturbations",
+            "team": "Juan C. Caicedo",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/6c26c1c68782bb2b4821f9f2343431d3785b3b59",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-024-45999-1"
+        },
+        {
+            "year": "2018.07",
+            "title": "CellProfiler 3.0: Next-generation image processing for biology",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "PLoS Biology",
+            "paperUrl": "https://www.semanticscholar.org/paper/713e881b5c3134debf934026edf6f0ba3cb42c3c",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1371/journal.pbio.2005970"
         }
     ],
     "benchmarks": [
@@ -665,6 +849,19 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1038/s41587-025-02777-8"
+        },
+        {
+            "year": "2023.02",
+            "title": "Community-developed checklists for publishing images and image analyses",
+            "team": "H Germany",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/65a9382c999cb3f9533265e818d2ea8664944e6f",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-023-01987-9"
         }
     ],
     "methodology": [
@@ -878,6 +1075,19 @@
             "doi": ""
         },
         {
+            "year": "2023.11",
+            "title": "From intuition to AI: evolution of small molecule representations in drug discovery",
+            "team": "Vincent Blay",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Briefings Bioinform.",
+            "paperUrl": "https://www.semanticscholar.org/paper/fda524f3c8a733c747aa17d00127c339659accf7",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1093/bib/bbad422"
+        },
+        {
             "year": "2022.05",
             "title": "Phenotypic drug discovery: recent successes, lessons learned and new directions",
             "team": "M. Mercola",
@@ -973,6 +1183,19 @@
             "doi": ""
         },
         {
+            "year": "2023.04",
+            "title": "Predicting compound activity from phenotypic profiles and chemical structures",
+            "team": "Anne E Carpenter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/0a25e1bcacbc6eecc491dfe1fd2211b622efd7c7",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-023-37570-1"
+        },
+        {
             "year": "2023.02",
             "title": "Enabling Single‐Cell Drug Response Annotations from Bulk RNA‐Seq Using SCAD",
             "team": "Ka-chun Wong",
@@ -984,6 +1207,19 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1002/advs.202204113"
+        },
+        {
+            "year": "2022.10",
+            "title": "Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data",
+            "team": "Qin Ma",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/9146e8e6d209d4ea6933f8c1c93ec4fc41664aa5",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41467-022-34277-7"
         }
     ]
 }
