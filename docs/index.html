@@ -572,6 +572,10 @@
                     <div class="stat-label">Reviews</div>
                 </div>
                 <div class="stat-item">
+                    <div class="stat-number" id="other-domain-foundation-models-count"></div>
+                    <div class="stat-label">Other Domain Foundation Models</div>
+                </div>
+                <div class="stat-item">
                     <div class="stat-number" id="paper-before-2024-count"></div>
                     <div class="stat-label">Paper &lt; 2024</div>
                 </div>
@@ -641,6 +645,9 @@
             </a>
             <a href="#reviews" class="nav-tab" data-section="reviews">
                 <i class="fas fa-book"></i> Reviews (<span id="reviews-nav-count"></span>)
+            </a>
+            <a href="#other-domain-foundation-models" class="nav-tab" data-section="other-domain-foundation-models">
+                <i class="fas fa-globe"></i> Other Domain Foundation Models (<span id="other-domain-foundation-models-nav-count"></span>)
             </a>
             <a href="#paper-before-2024" class="nav-tab" data-section="paper-before-2024">
                 <i class="fas fa-hourglass-half"></i> Paper &lt; 2024 (<span id="paper-before-2024-nav-count"></span>)
@@ -969,6 +976,32 @@
                     </div>
                 </section>
 
+                <!-- Other Domain Foundation Models Section -->
+                <section class="section" id="other-domain-foundation-models">
+                    <div class="section-header">
+                        <i class="fas fa-globe"></i>
+                        <h2 class="section-title">Other Domain Foundation Models</h2>
+                        <span class="section-count" id="other-domain-foundation-models-section-count"></span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Title</th>
+                                    <th>Team</th>
+                                    <th>Domain</th>
+                                    <th>Venue</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="other-domain-foundation-models-tbody">
+                                <!-- Data will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
                 <!-- Paper Before 2024 Section -->
                 <section class="section" id="paper-before-2024">
                     <div class="section-header">
@@ -1161,6 +1194,7 @@
                 'evaluation-frameworks': 'Evaluation Frameworks',
                 'methodology': 'Methodology',
                 'reviews': 'Reviews',
+                'other-domain-foundation-models': 'Other Domain Foundation Models',
                 'paper-before-2024': 'Paper Before 2024'
             };
             return categoryNames[categoryKey] || categoryKey;
@@ -1223,7 +1257,7 @@
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Databases", "Tools & Infrastructure", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Paper Before 2024"],
+                    labels: ["Static Models", "Dynamic Models", "Sequence Models", "Other Models", "AI Agents", "Databases", "Tools & Infrastructure", "Benchmarks", "Evaluation Frameworks", "Methodology", "Reviews", "Other Domain Foundation Models", "Paper Before 2024"],
                     datasets: [{
                         data: [
                             stats["static-models"] || 0,
@@ -1237,6 +1271,7 @@
                             stats["evaluation-frameworks"] || 0,
                             stats["methodology"] || 0,
                             stats["reviews"] || 0,
+                            stats["other-domain-foundation-models"] || 0,
                             stats["paper-before-2024"] || 0
                         ],
                         backgroundColor: [
@@ -1251,6 +1286,7 @@
                             '#00bcd4',
                             '#009688',
                             '#43e97b',
+                            '#8e24aa',
                             '#ffa726'
                         ]
                     }]

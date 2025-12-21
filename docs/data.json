@@ -29,9 +29,9 @@
         {
             "year": "2024.06",
             "title": "scFoundation: Large-scale foundation model on single-cell transcriptomics",
-            "team": "Biomap research(Le Song, Xuegong Zhang)",
+            "team": "Le Song, Xuegong Zhang",
             "team website": "https://github.com/biomap-research",
-            "affiliation": "",
+            "affiliation": "Biomap research",
             "domain": "single cell RNA",
             "venue": "Nature Communications",
             "paperUrl": "https://www.nature.com/articles/s41592-024-02305-7",
@@ -56,6 +56,19 @@
     "dynamic-models": [
         {
             "year": "2025.12",
+            "title": "SpatialProp: tissue perturbation modeling with spatially resolved single-cell transcriptomics",
+            "team": "James Zou",
+            "team website": "https://github.com/zou-group",
+            "affiliation": "Stanford University",
+            "domain": "Spatial scRNA perturbation modeling",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/2629ead85b953e97d426e01a4445bfa27815b383",
+            "codeUrl": "https://github.com/abuendia/spatial-prop",
+            "githubStars": "https://img.shields.io/github/stars/abuendia/spatial-prop",
+            "doi": "10.64898/2025.11.30.691355"
+        },
+        {
+            "year": "2025.12",
             "title": "Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings.",
             "team": "Jun Li",
             "team website": "",
@@ -66,19 +79,6 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1038/s43588-025-00912-8"
-        },
-        {
-            "year": "2025.10",
-            "title": "In silico biological discovery with large perturbation models",
-            "team": "Patrick Schwab",
-            "team website": "",
-            "affiliation": "GSK plc",
-            "domain": "Use large perturbation models by representing perturbation, readout and context as disentangled dimensions",
-            "venue": "Nature Computational Science",
-            "paperUrl": "https://www.nature.com/articles/s43588-025-00870-1",
-            "codeUrl": "https://github.com/perturblib/perturblib",
-            "githubStars": "https://img.shields.io/github/stars/perturblib/perturblib",
-            "doi": "doi.org/10.1038/s43588-025-00870-1"
         },
         {
             "year": "2025.05",
@@ -161,6 +161,19 @@
             "doi": ""
         },
         {
+            "year": "2025.07",
+            "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
+            "team": "Microsoft Research(Frank Noé)",
+            "team website": "https://github.com/microsoft",
+            "affiliation": "",
+            "domain": "Protein",
+            "venue": "Science",
+            "paperUrl": "https://www.science.org/doi/10.1126/science.adv9817",
+            "codeUrl": "https://github.com/microsoft/bioemu",
+            "githubStars": "https://img.shields.io/github/stars/microsoft/bioemu",
+            "doi": ""
+        },
+        {
             "year": "2025.06",
             "title": "Generalized biological foundation model with unified nucleic acid and protein language",
             "team": "Zhaorong Li",
@@ -174,16 +187,16 @@
             "doi": ""
         },
         {
-            "year": "2025.07",
-            "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
-            "team": "Microsoft Research(Frank Noé)",
-            "team website": "https://github.com/microsoft",
-            "affiliation": "",
+            "year": "2025.04",
+            "title": "xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein",
+            "team": "Le Song",
+            "team website": "https://github.com/biomap-research",
+            "affiliation": "Biomap research",
             "domain": "Protein",
-            "venue": "Science",
-            "paperUrl": "https://www.science.org/doi/10.1126/science.adv9817",
-            "codeUrl": "https://github.com/microsoft/bioemu",
-            "githubStars": "https://img.shields.io/github/stars/microsoft/bioemu",
+            "venue": "Nature Methods",
+            "paperUrl": "https://arxiv.org/abs/2401.06199",
+            "codeUrl": "https://github.com/biomap-research/xTrimoPGLM",
+            "githubStars": "https://img.shields.io/github/stars/biomap-research/xTrimoPGLM",
             "doi": ""
         },
         {
@@ -280,6 +293,58 @@
             "doi": "10.1126/science.adi8577"
         },
         {
+            "year": "2025.08",
+            "title": "Squidiff: Predicting cellular development and responses to perturbations using a diffusion model",
+            "team": "Kam W. Leong",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/db387c9cbd2439200aa403bc390457d238dfa36d",
+            "codeUrl": "https://github.com/siyuh/Squidiff",
+            "githubStars": "https://img.shields.io/github/stars/siyuh/Squidiff",
+            "doi": "10.1101/2024.11.16.623974"
+        },
+        {
+            "year": "2025.07",
+            "title": "Prediction of cellular morphology changes under perturbations with a transcriptome-guided diffusion model",
+            "team": "Le Song",
+            "team website": "https://github.com/biomap-research",
+            "affiliation": "Biomap research",
+            "domain": "cellular morphology changes under perturbations",
+            "venue": "Nature Communications",
+            "paperUrl": "https://www.semanticscholar.org/paper/46c13678b2b4044e693ec907a2080c77fdd7c906",
+            "codeUrl": "https://github.com/biomap-research/MorphDiff",
+            "githubStars": "https://img.shields.io/github/stars/biomap-research/MorphDiff",
+            "doi": "10.1038/s41467-025-63478-z"
+        },
+        {
+            "year": "2025.06",
+            "title": "A deep generative model for deciphering cellular dynamics and in silico drug discovery in complex diseases",
+            "team": "Jun Ding",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Biomedical Engineering",
+            "paperUrl": "https://www.semanticscholar.org/paper/4914ea0eb460861de190e3976e11567806b59ffe",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41551-025-01423-7"
+        },
+        {
+            "year": "2025.03",
+            "title": "Cell morphological representations of genes enhance prediction of drug targets",
+            "team": "Shantanu Singh",
+            "team website": "",
+            "affiliation": "Broad Institute",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/9924f439a76927ce3b7feb27a61ec80c26600f34",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1101/2024.06.08.598076"
+        },
+        {
             "year": "2024.10",
             "title": "Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery",
             "team": "Yi Zhao",
@@ -358,6 +423,32 @@
             "codeUrl": "https://github.com/epigen/cellwhisperer",
             "githubStars": "https://img.shields.io/github/stars/epigen/cellwhisperer",
             "doi": "10.1038/s41587-025-02857-9"
+        },
+        {
+            "year": "2025.07",
+            "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+            "team": "James Zou",
+            "team website": "https://github.com/zou-group",
+            "affiliation": "Stanford University",
+            "domain": "General Scientific Research",
+            "venue": "Nature",
+            "paperUrl": "https://www.nature.com/articles/s41586-025-09442-9",
+            "codeUrl": "https://github.com/zou-group/virtual-lab",
+            "githubStars": "https://img.shields.io/github/stars/zou-group/virtual-lab",
+            "doi": "10.1038/s41586-025-09442-9"
+        },
+        {
+            "year": "2025.06",
+            "title": "CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data",
+            "team": "James Zou",
+            "team website": "https://github.com/zou-group",
+            "affiliation": "Stanford University",
+            "domain": "single cell RNA",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.biorxiv.org/content/10.1101/2025.06.03.657517v1",
+            "codeUrl": "https://github.com/zou-group/CellVoyager",
+            "githubStars": "https://img.shields.io/github/stars/zou-group/CellVoyager",
+            "doi": ""
         },
         {
             "year": "2025.05",
@@ -592,6 +683,19 @@
         },
         {
             "year": "2025.10",
+            "title": "In silico biological discovery with large perturbation models",
+            "team": "Patrick Schwab",
+            "team website": "",
+            "affiliation": "GSK plc",
+            "domain": "Use large perturbation models by representing perturbation, readout and context as disentangled dimensions",
+            "venue": "Nature Computational Science",
+            "paperUrl": "https://www.nature.com/articles/s43588-025-00870-1",
+            "codeUrl": "https://github.com/perturblib/perturblib",
+            "githubStars": "https://img.shields.io/github/stars/perturblib/perturblib",
+            "doi": "doi.org/10.1038/s43588-025-00870-1"
+        },
+        {
+            "year": "2025.10",
             "title": "Efficient and accurate search in petabase-scale sequence repositories",
             "team": "André Kahles",
             "team website": "",
@@ -628,6 +732,19 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.48550/arXiv.2406.12056"
+        },
+        {
+            "year": "2024.05",
+            "title": "Continuously evolving rewards in an open-ended environment",
+            "team": "Richard M. Bailey",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "arXiv.org",
+            "paperUrl": "https://www.semanticscholar.org/paper/d8b10ccccd1fd7295ce86e0c214925b37f6a22de",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.48550/arXiv.2405.01261"
         }
     ],
     "reviews": [
@@ -787,13 +904,28 @@
             "doi": "10.1038/s41573-020-00117-w"
         }
     ],
+    "other-domain-foundation-models": [
+        {
+            "year": "2025.07",
+            "title": "A foundation model to predict and capture human cognition",
+            "team": "Eric Schulz",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature",
+            "paperUrl": "https://www.semanticscholar.org/paper/a4e64dee0d0f284edc160a9a8bc2b4385577249a",
+            "codeUrl": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter",
+            "githubStars": "",
+            "doi": "10.1038/s41586-025-09215-4"
+        }
+    ],
     "paper-before-2024": [
         {
             "year": "2023.10",
             "title": "ProGen2: Exploring the boundaries of protein language models",
-            "team": "Salesforce Research( Ali Madani)",
+            "team": "Ali Madani",
             "team website": "https://github.com/salesforce",
-            "affiliation": "",
+            "affiliation": "Salesforce Research",
             "domain": "Protein",
             "venue": "Cell Systems",
             "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/37909046/",
