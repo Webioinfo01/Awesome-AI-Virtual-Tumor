@@ -81,6 +81,19 @@
             "doi": "10.1038/s43588-025-00912-8"
         },
         {
+            "year": "2025.10",
+            "title": "Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters",
+            "team": "Nima Alidoust",
+            "team website": "https://github.com/ArcInstitute",
+            "affiliation": "tahoebio(but in arc's repository)",
+            "domain": "",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/f9338636c63e8057025be2fe4170b725da1f47bc",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1101/2025.10.23.683759"
+        },
+        {
             "year": "2025.05",
             "title": "A visual–omics foundation model to bridge histopathology with spatial transcriptomics",
             "team": "Guangyu Wang",
@@ -267,9 +280,9 @@
         {
             "year": "2024.05",
             "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
-            "team": "Google DeepMind(John M. Jumper)",
+            "team": "John M. Jumper",
             "team website": "https://github.com/google-deepmind",
-            "affiliation": "",
+            "affiliation": "Google DeepMind",
             "domain": "Protein",
             "venue": "Nature",
             "paperUrl": "https://www.nature.com/articles/s41586-024-07487-w",
@@ -307,6 +320,19 @@
         }
     ],
     "other-models": [
+        {
+            "year": "2025.12",
+            "title": "Multimodal AI generates virtual population for tumor microenvironment modeling.",
+            "team": "H. Poon",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Cell",
+            "paperUrl": "https://www.semanticscholar.org/paper/27e339e417eaa5af813d5f6ddba760c7d7175949",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1016/j.cell.2025.11.016"
+        },
         {
             "year": "2025.10",
             "title": "Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes",
@@ -358,6 +384,19 @@
             "codeUrl": "",
             "githubStars": "",
             "doi": "10.1038/s41551-025-01423-7"
+        },
+        {
+            "year": "2025.04",
+            "title": "AI-driven predictive biomarker discovery with contrastive learning to improve clinical trial outcomes.",
+            "team": "Etai Jacob",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Cancer Cell",
+            "paperUrl": "https://www.semanticscholar.org/paper/aa8ccacaab79ff169945cc5c68d3c984e3bdc9d0",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1016/j.ccell.2025.03.029"
         },
         {
             "year": "2025.03",
@@ -905,6 +944,19 @@
             "doi": "10.1038/s41586-025-09603-w"
         },
         {
+            "year": "2025.08",
+            "title": "Deep active optimization for complex systems",
+            "team": "D. Raabe",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Computational Science",
+            "paperUrl": "https://www.semanticscholar.org/paper/5d62699e29224d34eba3fecfdf7ca1b87b3576fc",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s43588-025-00858-x"
+        },
+        {
             "year": "2025.04",
             "title": "OmniCellTOSG: The First Cell Text-Omic Signaling Graphs Dataset for Joint LLM and GNN Modeling",
             "team": "Fuhai Li",
@@ -1127,6 +1179,19 @@
             "codeUrl": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter",
             "githubStars": "",
             "doi": "10.1038/s41586-025-09215-4"
+        },
+        {
+            "year": "2025.01",
+            "title": "Accurate predictions on small data with a tabular foundation model",
+            "team": "Frank Hutter",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature",
+            "paperUrl": "https://www.semanticscholar.org/paper/6b238b17e419c7dd3912b9845449496bfb0a571a",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41586-024-08328-6"
         }
     ],
     "paper-before-2024": [
