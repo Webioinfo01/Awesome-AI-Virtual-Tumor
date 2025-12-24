@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Awesome Perturbation-to-Phenotype AI</title>
-  <link>https://webioinfo01.github.io/Awesome-Perturbation-to-Phenotype-AI/</link>
-  <description>A curated survey of AI systems that map perturbations (genetic, chemical, environmental) to phenotypic outcomes, including static models, dynamic models, sequence models, agents, databases, tools & infrastructure, benchmarks, methodology, evaluation frameworks, reviews, and pre-2024 papers.</description>
+  <title>Awesome AI Virtual Tumor</title>
+  <link>https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/</link>
+  <description>A curated survey of AI systems for virtual tumor modeling and simulation, including static models, dynamic models, sequence models, agents, databases, tools & infrastructure, benchmarks, methodology, evaluation frameworks, reviews, and pre-2024 papers.</description>
   <language>en-us</language>
   <lastBuildDate>Sun, 21 Dec 2025 13:07:58 GMT</lastBuildDate>
-  <atom:link href="https://webioinfo01.github.io/Awesome-Perturbation-to-Phenotype-AI/rss.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/rss.xml" rel="self" type="application/rss+xml" />
   <!-- RSS items will be populated by AweAgent or manual updates -->
   <item>
     <title>A lung CT vision foundation model facilitating disease diagnosis and medical imaging.</title>
