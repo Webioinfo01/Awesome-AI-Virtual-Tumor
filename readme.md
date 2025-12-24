@@ -1,9 +1,9 @@
 # Awesome AI Virtual Tumor[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Website](https://img.shields.io/website?url=http%3A//awesome-ai-virtual-tumor.webioinfo.top/)](http://awesome-ai-virtual-tumor.webioinfo.top/)
+[![Website](https://img.shields.io/website?url=http%3A//awesomeaivt.webioinfo.top/)](http://awesomeaivt.webioinfo.top/)
 [![GitHub Stars](https://img.shields.io/github/stars/Webioinfo01/Awesome-AI-Virtual-Tumor?style=social)](https://github.com/Webioinfo01/Awesome-AI-Virtual-Tumor) 
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=Webioinfo01.Awesome-AI-Virtual-Tumor)](https://github.com/Webioinfo01/Awesome-AI-Virtual-Tumor)
 
-**Visit the official website at: http://awesome-ai-virtual-tumor.webioinfo.top/**
+**Visit the official website at: http://awesomeaivt.webioinfo.top/**
 
 This project is collaboratively maintained by our self-developed AI agent (aweagent) and human experts in a human-in-the-loop workflow, combining automated discovery with expert curation to provide a comprehensive survey of AI systems for virtual tumor modeling and simulation.
 
