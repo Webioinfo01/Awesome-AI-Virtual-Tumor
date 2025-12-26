@@ -689,6 +689,45 @@
             "doi": ""
         },
         {
+            "year": "2024.12",
+            "title": "M3-20M: A Large-Scale Multi-Modal Molecule Dataset for AI-driven Drug Design and Discovery",
+            "team": "Shuigeng Zhou",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Multi-modal molecule dataset for drug design",
+            "venue": "Journal of bioinformatics and computational biology",
+            "paperUrl": "https://www.semanticscholar.org/paper/aa3a1bbd4f6ec6934ce6a3850991747f563ab3b0",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.48550/arXiv.2412.06847"
+        },
+        {
+            "year": "2024.12",
+            "title": "BioMedGraphica: An All-in-One Platform for Biomedical Prior Knowledge and Omic Signaling Graph Generation",
+            "team": "Fuhai Li",
+            "team website": "",
+            "affiliation": "Washington University in St. Louis",
+            "domain": "Biomedical knowledge graph platform",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.semanticscholar.org/paper/212898d49afdf60a12eeda9935bc54d748da3089",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1101/2024.12.05.627020"
+        },
+        {
+            "year": "2024.06",
+            "title": "Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics",
+            "team": "Marinka Zitnik",
+            "team website": "https://zitniklab.hms.harvard.edu/",
+            "affiliation": "",
+            "domain": "Drug Discovery (Therapeutic science, 66 datasets)",
+            "venue": "bioRxiv",
+            "paperUrl": "https://www.biorxiv.org/content/10.1101/2024.06.12.598655v3",
+            "codeUrl": "https://tdcommons.ai/",
+            "githubStars": "https://img.shields.io/github/stars/mims-harvard/TDC",
+            "doi": ""
+        },
+        {
             "year": "2024.02",
             "title": "Cell Painting Gallery: an open resource for image-based profiling",
             "team": "Shantanu Singh",
@@ -741,17 +780,17 @@
             "doi": "10.1101/2021.10.21.465335"
         },
         {
-            "year": "2022.01",
-            "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
-            "team": "Anne E Carpenter",
-            "team website": "",
+            "year": "2024.04",
+            "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (Cell Painting Gallery)",
+            "team": "Broad Institute(Anne E. Carpenter)",
+            "team website": "https://github.com/broadinstitute",
             "affiliation": "",
-            "domain": "",
-            "venue": "bioRxiv",
-            "paperUrl": "https://www.semanticscholar.org/paper/3e173f19037739ae6e84bc3b9f97957c42412660",
-            "codeUrl": "",
-            "githubStars": "",
-            "doi": "10.1038/s41592-024-02241-6"
+            "domain": "phenotype morphological responses to perturbation",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.nature.com/articles/s41592-024-02241-6",
+            "codeUrl": "https://github.com/broadinstitute/cellpainting-gallery/",
+            "githubStars": "https://img.shields.io/github/stars/broadinstitute/cellpainting-gallery",
+            "doi": ""
         },
         {
             "year": "2021.09",
