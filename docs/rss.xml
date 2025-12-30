@@ -5,9 +5,23 @@
   <link>https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/</link>
   <description>A curated survey of AI systems for virtual tumor modeling and simulation, including static models, dynamic models, sequence models, agents, databases, tools & infrastructure, benchmarks, methodology, evaluation frameworks, reviews, and pre-2024 papers.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Dec 2025 14:53:34 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 30 Dec 2025 14:58:21 GMT</lastBuildDate>
   <atom:link href="https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/rss.xml" rel="self" type="application/rss+xml" />
   <!-- RSS items will be populated by AweAgent or manual updates -->
+  <item>
+    <title>Artificial Intelligence Virtual Organoids (AIVOs)</title>
+    <link>https://doi.org/10.1016/j.bioactmat.2025.12.030</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Jiacan Su</p>
+        <p><b>Domain:</b> Virtual Organoids</p>
+        <p><b>Venue:</b> Bioactive Materials</p>
+        <p><a href="https://www.semanticscholar.org/paper/01df3716c0606cbb5a4ec8929286759b8f8b8097">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">ArtificialIntelligenceVirtualOrganoidsAIVOs202601</guid>
+  </item>
   <item>
     <title>Novae: a graph-based foundation model for spatial transcriptomics data</title>
     <link>https://doi.org/10.1038/s41592-025-02899-6</link>

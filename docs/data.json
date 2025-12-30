@@ -1102,6 +1102,19 @@
     ],
     "reviews": [
         {
+            "year": "2026.01",
+            "title": "Artificial Intelligence Virtual Organoids (AIVOs)",
+            "team": "Jiacan Su",
+            "team website": "",
+            "affiliation": "",
+            "domain": "Virtual Organoids",
+            "venue": "Bioactive Materials",
+            "paperUrl": "https://www.semanticscholar.org/paper/01df3716c0606cbb5a4ec8929286759b8f8b8097",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1016/j.bioactmat.2025.12.030"
+        },
+        {
             "year": "2025.12",
             "title": "Multimodal foundation transformer models for multiscale genomics.",
             "team": "Jesper N. Tegnér",

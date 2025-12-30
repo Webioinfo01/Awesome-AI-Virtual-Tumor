@@ -144,6 +144,7 @@ This repository organizes AI applications for virtual tumor research into fourte
 ## Reviews
 | Year | Title | Team | Team Website | Affiliation | Domain | Venue | Paper/ Source | Code/Product |
 | -----| ------| -----| -------------| ------------| -------| ------| --------------| -------------|
+| 2026.01 | **Artificial Intelligence Virtual Organoids (AIVOs)** | Jiacan Su |  |  | Virtual Organoids | Bioactive Materials | [Link](https://www.semanticscholar.org/paper/01df3716c0606cbb5a4ec8929286759b8f8b8097) |  |
 | 2025.12 | **Multimodal foundation transformer models for multiscale genomics.** | Jesper N. Tegnér |  |  | Multimodal transformer for genomics | Nature Methods | [Link](https://www.semanticscholar.org/paper/336d539daa17f126463a3373d00df732a0f04c83) |  |
 | 2025.08 | **Large language models for clinical decision support in gastroenterology and hepatology** | J. Kather |  |  | Gastroenterology decision support with LLM | Nature Reviews Gastroenterology & Hepatology | [Link](https://www.semanticscholar.org/paper/5b813012fba35e20e1892f6b01f1dd323a1e1c3d) |  |
 | 2025.07 | **Human interpretable grammar encodes multicellular systems biology models to democratize virtual cell laboratories** | Paul Macklin |  | Indiana University | Virtual cell | Cell | [Link](https://pubmed.ncbi.nlm.nih.gov/40713951/) | [Link](https://github.com/physicell-models/grammar_samples) ![GitHub Stars](https://img.shields.io/github/stars/physicell-models/grammar_samples) |
