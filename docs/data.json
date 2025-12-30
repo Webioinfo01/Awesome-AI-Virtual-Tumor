@@ -170,7 +170,7 @@
             "venue": "GigaScience",
             "paperUrl": "https://www.semanticscholar.org/paper/4488463e7f0cd84dd17f5f26ee952e900c0d1be3",
             "codeUrl": "https://github.com/BGI-HangzhouAI/Genos",
-            "githubStars": "https://img.shields.io/github/stars/BGI-shenzhen/Genos",
+            "githubStars": "https://img.shields.io/github/stars/BGI-HangzhouAI/Genos",
             "doi": "10.1093/gigascience/giaf132"
         },
         {
@@ -833,6 +833,19 @@
         }
     ],
     "tools-infrastructure": [
+        {
+            "year": "2025.12",
+            "title": "Scikit-bio: a fundamental Python library for biological omic data analysis.",
+            "team": "Qiyun Zhu",
+            "team website": "",
+            "affiliation": "",
+            "domain": "",
+            "venue": "Nature Methods",
+            "paperUrl": "https://www.semanticscholar.org/paper/7c825be64935d52d9c2f812f3bf22444f7a99e64",
+            "codeUrl": "",
+            "githubStars": "",
+            "doi": "10.1038/s41592-025-02981-z"
+        },
         {
             "year": "2025.11",
             "title": "Smart spatial omics (S2-omics) optimizes region of interest selection to capture molecular heterogeneity in diverse tissues",

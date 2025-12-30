@@ -5,9 +5,23 @@
   <link>https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/</link>
   <description>A curated survey of AI systems for virtual tumor modeling and simulation, including static models, dynamic models, sequence models, agents, databases, tools & infrastructure, benchmarks, methodology, evaluation frameworks, reviews, and pre-2024 papers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 21 Dec 2025 13:07:58 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 30 Dec 2025 14:53:34 GMT</lastBuildDate>
   <atom:link href="https://webioinfo01.github.io/Awesome-AI-Virtual-Tumor/rss.xml" rel="self" type="application/rss+xml" />
   <!-- RSS items will be populated by AweAgent or manual updates -->
+  <item>
+    <title>Novae: a graph-based foundation model for spatial transcriptomics data</title>
+    <link>https://doi.org/10.1038/s41592-025-02899-6</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> P. Cournède</p>
+        <p><b>Domain:</b> Spatial transcriptomics foundation model</p>
+        <p><b>Venue:</b> Nature Methods</p>
+        <p><a href="https://www.semanticscholar.org/paper/96635eda1f59bf68a0b2dca799155c37ea90e441">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">Novaeagraphbasedfoundationmodelforspatialtranscriptomicsdata202512</guid>
+  </item>
   <item>
     <title>A lung CT vision foundation model facilitating disease diagnosis and medical imaging.</title>
     <link>https://doi.org/10.1038/s41467-025-66620-z</link>
@@ -52,6 +66,20 @@
     <guid isPermaLink="false">Scouterpredictstranscriptionalresponsestogeneticperturbationswithlargelanguagemodelembeddings202512</guid>
   </item>
   <item>
+    <title>Multimodal AI generates virtual population for tumor microenvironment modeling.</title>
+    <link>https://doi.org/10.1016/j.cell.2025.11.016</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> H. Poon</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> Cell</p>
+        <p><a href="https://www.semanticscholar.org/paper/27e339e417eaa5af813d5f6ddba760c7d7175949">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">MultimodalAIgeneratesvirtualpopulationfortumormicroenvironmentmodeling202512</guid>
+  </item>
+  <item>
     <title>CASSIA: a multi-agent large language model for automated and interpretable cell annotation.</title>
     <link>https://doi.org/10.1038/s41467-025-67084-x</link>
     <description>
@@ -64,6 +92,35 @@
     </description>
     <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">CASSIAamultiagentlargelanguagemodelforautomatedandinterpretablecellannotation202512</guid>
+  </item>
+  <item>
+    <title>Genome-scale perturb-seq in primary human CD4+ T cells maps context-specific regulators of T cell programs and human immune traits</title>
+    <link>https://doi.org/10.64898/2025.12.23.696273</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Alexander Marson</p>
+        <p><b>Domain:</b> Genome-wide Perturb-seq</p>
+        <p><b>Venue:</b> arXiv</p>
+        <p><a href="https://www.biorxiv.org/content/10.64898/2025.12.23.696273v1">Read the Paper</a></p>
+        <p><a href="https://github.com/emdann/GWT_perturbseq_analysis_2025">View the Code</a></p>
+      ]]>
+    </description>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">GenomescaleperturbseqinprimaryhumanCD4TcellsmapscontextspecificregulatorsofTcellprogramsandhumanimmunetraits202512</guid>
+  </item>
+  <item>
+    <title>Scikit-bio: a fundamental Python library for biological omic data analysis.</title>
+    <link>https://doi.org/10.1038/s41592-025-02981-z</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Qiyun Zhu</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> Nature Methods</p>
+        <p><a href="https://www.semanticscholar.org/paper/7c825be64935d52d9c2f812f3bf22444f7a99e64">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">ScikitbioafundamentalPythonlibraryforbiologicalomicdataanalysis202512</guid>
   </item>
   <item>
     <title>scDrugMap: Benchmarking Large Foundation Models for Drug Response Prediction</title>
@@ -196,6 +253,20 @@
     <guid isPermaLink="false">BVBRCaunifiedbacterialandviralbioinformaticsresourcewithexpandedfunctionalityandAIintegration202511</guid>
   </item>
   <item>
+    <title>Smart spatial omics (S2-omics) optimizes region of interest selection to capture molecular heterogeneity in diverse tissues</title>
+    <link>https://doi.org/10.1038/s41556-025-01811-w</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Mingyao Li</p>
+        <p><b>Domain:</b> spatial omics</p>
+        <p><b>Venue:</b> Nature Cell Biology</p>
+        <p><a href="https://www.semanticscholar.org/paper/faf506dbe520bf8961e03a7037d33ea836e35e91">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">SmartspatialomicsS2omicsoptimizesregionofinterestselectiontocapturemolecularheterogeneityindiversetissues202511</guid>
+  </item>
+  <item>
     <title>CellOntologyMapper: Consensus mapping of cell type annotation</title>
     <link>https://doi.org/10.1002/imo2.70064</link>
     <description>
@@ -223,6 +294,35 @@
     </description>
     <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">Monodmodelbaseddiscoveryandintegrationthroughfittingstochastictranscriptionaldynamicstosinglecellsequencingdata202511</guid>
+  </item>
+  <item>
+    <title>Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters</title>
+    <link>https://doi.org/10.1101/2025.10.23.683759</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Nima Alidoust</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> bioRxiv</p>
+        <p><a href="https://www.semanticscholar.org/paper/f9338636c63e8057025be2fe4170b725da1f47bc">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">Tahoex1ScalingPerturbationTrainedSingleCellFoundationModelsto3BillionParameters202510</guid>
+  </item>
+  <item>
+    <title>Genos: A Human-Centric Genomic Foundation Model.</title>
+    <link>https://doi.org/10.1093/gigascience/giaf132</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Zilin Wang</p>
+        <p><b>Domain:</b> Genomic Foundation Model</p>
+        <p><b>Venue:</b> GigaScience</p>
+        <p><a href="https://www.semanticscholar.org/paper/4488463e7f0cd84dd17f5f26ee952e900c0d1be3">Read the Paper</a></p>
+        <p><a href="https://github.com/BGI-HangzhouAI/Genos">View the Code</a></p>
+      ]]>
+    </description>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">GenosAHumanCentricGenomicFoundationModel202510</guid>
   </item>
   <item>
     <title>Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes</title>
@@ -310,6 +410,20 @@
     </description>
     <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">Systemaaframeworkforevaluatinggeneticperturbationresponsepredictionbeyondsystematicvariation202508</guid>
+  </item>
+  <item>
+    <title>Deep active optimization for complex systems</title>
+    <link>https://doi.org/10.1038/s43588-025-00858-x</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> D. Raabe</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> Nature Computational Science</p>
+        <p><a href="https://www.semanticscholar.org/paper/5d62699e29224d34eba3fecfdf7ca1b87b3576fc">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">Deepactiveoptimizationforcomplexsystems202508</guid>
   </item>
   <item>
     <title>Large language models for clinical decision support in gastroenterology and hepatology</title>
@@ -577,6 +691,20 @@
     <guid isPermaLink="false">xTrimoPGLMUnified100BScalePretrainedTransformerforDecipheringtheLanguageofProtein202504</guid>
   </item>
   <item>
+    <title>AI-driven predictive biomarker discovery with contrastive learning to improve clinical trial outcomes.</title>
+    <link>https://doi.org/10.1016/j.ccell.2025.03.029</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Etai Jacob</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> Cancer Cell</p>
+        <p><a href="https://www.semanticscholar.org/paper/aa8ccacaab79ff169945cc5c68d3c984e3bdc9d0">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">AIdrivenpredictivebiomarkerdiscoverywithcontrastivelearningtoimproveclinicaltrialoutcomes202504</guid>
+  </item>
+  <item>
     <title>scMultiSim: simulation of single-cell multi-omics and spatial data guided by gene regulatory networks and cell–cell interactions</title>
     <link>https://www.nature.com/articles/s41592-025-02651-0</link>
     <description>
@@ -810,6 +938,48 @@
     <guid isPermaLink="false">LearningthelanguageoflifewithAI202501</guid>
   </item>
   <item>
+    <title>Accurate predictions on small data with a tabular foundation model</title>
+    <link>https://doi.org/10.1038/s41586-024-08328-6</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Frank Hutter</p>
+        <p><b>Domain:</b> </p>
+        <p><b>Venue:</b> Nature</p>
+        <p><a href="https://www.semanticscholar.org/paper/6b238b17e419c7dd3912b9845449496bfb0a571a">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">Accuratepredictionsonsmalldatawithatabularfoundationmodel202501</guid>
+  </item>
+  <item>
+    <title>M3-20M: A Large-Scale Multi-Modal Molecule Dataset for AI-driven Drug Design and Discovery</title>
+    <link>https://doi.org/10.48550/arXiv.2412.06847</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Shuigeng Zhou</p>
+        <p><b>Domain:</b> Multi-modal molecule dataset for drug design</p>
+        <p><b>Venue:</b> Journal of bioinformatics and computational biology</p>
+        <p><a href="https://www.semanticscholar.org/paper/aa3a1bbd4f6ec6934ce6a3850991747f563ab3b0">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">M320MALargeScaleMultiModalMoleculeDatasetforAIdrivenDrugDesignandDiscovery202412</guid>
+  </item>
+  <item>
+    <title>BioMedGraphica: An All-in-One Platform for Biomedical Prior Knowledge and Omic Signaling Graph Generation</title>
+    <link>https://doi.org/10.1101/2024.12.05.627020</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Fuhai Li</p>
+        <p><b>Domain:</b> Biomedical knowledge graph platform</p>
+        <p><b>Venue:</b> bioRxiv</p>
+        <p><a href="https://www.semanticscholar.org/paper/212898d49afdf60a12eeda9935bc54d748da3089">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">BioMedGraphicaAnAllinOnePlatformforBiomedicalPriorKnowledgeandOmicSignalingGraphGeneration202412</guid>
+  </item>
+  <item>
     <title>Cell Painting: a decade of discovery and innovation in cellular imaging</title>
     <link>https://doi.org/10.1038/s41592-024-02528-8</link>
     <description>
@@ -954,6 +1124,21 @@
     <guid isPermaLink="false">Deeprepresentationlearningofchemicalinducedtranscriptionalprofileforphenotypebaseddrugdiscovery202406</guid>
   </item>
   <item>
+    <title>Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics</title>
+    <link>https://www.biorxiv.org/content/10.1101/2024.06.12.598655v3</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Marinka Zitnik</p>
+        <p><b>Domain:</b> Drug Discovery (Therapeutic science, 66 datasets)</p>
+        <p><b>Venue:</b> bioRxiv</p>
+        <p><a href="https://www.biorxiv.org/content/10.1101/2024.06.12.598655v3">Read the Paper</a></p>
+        <p><a href="https://tdcommons.ai/">View the Code</a></p>
+      ]]>
+    </description>
+    <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">SignalsintheCellsMultimodalandContextualizedMachineLearningFoundationsforTherapeutics202406</guid>
+  </item>
+  <item>
     <title>Learning Molecular Representation in a Cell</title>
     <link>https://doi.org/10.48550/arXiv.2406.12056</link>
     <description>
@@ -972,7 +1157,7 @@
     <link>https://www.nature.com/articles/s41586-024-07487-w</link>
     <description>
       <![CDATA[
-        <p><b>Team:</b> Google DeepMind(John M. Jumper)</p>
+        <p><b>Team:</b> John M. Jumper</p>
         <p><b>Domain:</b> Protein</p>
         <p><b>Venue:</b> Nature</p>
         <p><a href="https://www.nature.com/articles/s41586-024-07487-w">Read the Paper</a></p>
@@ -1024,6 +1209,21 @@
     </description>
     <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">PERCEPTIONpredictspatientresponseandresistancetotreatmentusingsinglecelltranscriptomicsoftheirtumors202404</guid>
+  </item>
+  <item>
+    <title>Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (Cell Painting Gallery)</title>
+    <link>https://www.nature.com/articles/s41592-024-02241-6</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Broad Institute(Anne E. Carpenter)</p>
+        <p><b>Domain:</b> phenotype morphological responses to perturbation</p>
+        <p><b>Venue:</b> Nature Methods</p>
+        <p><a href="https://www.nature.com/articles/s41592-024-02241-6">Read the Paper</a></p>
+        <p><a href="https://github.com/broadinstitute/cellpainting-gallery/">View the Code</a></p>
+      ]]>
+    </description>
+    <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">ThreemillionimagesandmorphologicalprofilesofcellstreatedwithmatchedchemicalandgeneticperturbationsCellPaintingGallery202404</guid>
   </item>
   <item>
     <title>scGPT: toward building a foundation model for single-cell multi-omics using generative AI</title>
@@ -1097,6 +1297,20 @@
     </description>
     <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">ProGen2Exploringtheboundariesofproteinlanguagemodels202310</guid>
+  </item>
+  <item>
+    <title>AI-enabled organoids: Construction, analysis, and application</title>
+    <link>https://doi.org/10.1016/j.bioactmat.2023.09.005</link>
+    <description>
+      <![CDATA[
+        <p><b>Team:</b> Jiacan Su</p>
+        <p><b>Domain:</b> Organoid</p>
+        <p><b>Venue:</b> Bioactive Materials</p>
+        <p><a href="https://www.semanticscholar.org/paper/2884cd8ba95d218f1a0ca897b9712de762be37f8">Read the Paper</a></p>
+      ]]>
+    </description>
+    <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">AIenabledorganoidsConstructionanalysisandapplication202309</guid>
   </item>
   <item>
     <title>Predicting transcriptional outcomes of novel multigene perturbations with GEARS</title>
@@ -1252,20 +1466,6 @@
     </description>
     <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
     <guid isPermaLink="false">Phenotypicdrugdiscoveryrecentsuccesseslessonslearnedandnewdirections202205</guid>
-  </item>
-  <item>
-    <title>Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations</title>
-    <link>https://doi.org/10.1038/s41592-024-02241-6</link>
-    <description>
-      <![CDATA[
-        <p><b>Team:</b> Anne E Carpenter</p>
-        <p><b>Domain:</b> </p>
-        <p><b>Venue:</b> bioRxiv</p>
-        <p><a href="https://www.semanticscholar.org/paper/3e173f19037739ae6e84bc3b9f97957c42412660">Read the Paper</a></p>
-      ]]>
-    </description>
-    <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-    <guid isPermaLink="false">Threemillionimagesandmorphologicalprofilesofcellstreatedwithmatchedchemicalandgeneticperturbations202201</guid>
   </item>
   <item>
     <title>High-Dimensional Gene Expression and Morphology Profiles of Cells across 28,000 Genetic and Chemical Perturbations</title>
